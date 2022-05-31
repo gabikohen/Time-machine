@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://chat.staging.onereach.ai/lib/richWebChat.umd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://chat.staging.onereach.ai/lib/richWebChat.css"
+    />
+    <script src="https://kit.fontawesome.com/f4b983a33e.js" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./public/index.css" />
+
+    <title>Time Machine</title>
+  </head>
+  <body>
+      <div class="nav">
+        <div class="onereach">
+          oneReach
+        </div>
+        <div class="title"><h2>The Time Machine</h2></div>
+        <div class="links">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">How we Did it </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+        
+        <section class="text-center ">
+         
+         <!-- Facebook -->
+         <section class="mb-4 text-center ">
+           <div class=" social">
+          <!-- Facebook -->
+          <a target="_blank"
+             class="btn btn-outline-light btn-floating m-2 icon "
+             href=""
+             role="button"
+             ><i class="fa fa-facebook"></i></a>
+       
+          <!-- Twitter -->
+          <a target="_blank"
+             class="btn btn-outline-light btn-floating m-2 icon"
+             href=""
+             role="button"
+             ><i class="fa fa-twitter"></i></a>
+  
+          <!-- Youtube -->
+          <a target="_blank"
+             class="btn btn-outline-light btn-floating m-2 icon"
+             href="https://www.youtube.com/"
+             role="button"
+             ><i class="fa fa-youtube "></i></a>
+  
+          <!-- Instagram -->
+          <a  target="_blank"
+             class="btn btn-outline-light btn-floating m-2 icon"
+             href=""
+             role="button"
+             ><i class="fa fa-instagram "></i></a>
+  
+         <!-- Github -->
+          <a target="_blank" 
+             class="btn btn-outline-light btn-floating m-2 icon"
+             href=""
+             role="button"
+             ><i class="fa fa-github "></i></a>
+             
+             <!-- Stack-overflow -->
+             
+             <a target="_blank" 
+             class="btn btn-outline-light btn-floating m-2 icon"
+             href=""
+             role="button"
+             >
+             <i class="fa fa-stack-overflow "></i></a>
+            </div>
+        </section>
+        
+        <div>
+          
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link ">© 2022 OneReach.All Rights reserved </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Privacy & Legal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Termns and conditions </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Contacts </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Carrers </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    
+ 
+    <div id="rwc"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let RWC = richWebChat.default;
+        let app = new RWC({
+          container: "#rwc", // DOM element selector where chat will be inserted
+          chatUrl:
+            "https://chat.staging.onereach.ai/Zq7DWatYT7qO4IZ8cwvpsA/0nmghgg?loader=dark", // url of your chat. required
+          autoExpandDelay: 0,
+          position: "botton-center",
+          inviteMessage: "",
+          inviteButton: "",
+          inviteImage: undefined,
+          showCloseIcon: false,
+          inviteTimeout: 5000,
+          allowChangeChatWindowSize: false,
+          allowDrag: false,
+          widgetColor: "#409fec",
+
+          thumbLogo: undefined,
+          animation: "pulse", // 'pulse', 'ring', 'zoom',
+          appearance: {
+            blurredBackground: false,
+          },
+          pageData: {
+            fname: "foo",
+          },
+        });
+      });
+    </script>
+  </body>  
+</html>

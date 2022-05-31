@@ -1,0 +1,79 @@
+body {
+  
+  background-image: url("./images/tm1.png");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.onereach {
+  flex: 1;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  flex: 1;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.links{
+  flex: 1;
+  text-align: right;
+
+ } 
+
+.rwc-embed {
+  position: fixed;
+  top: 50% !important ;
+  left: 50% !important;
+  width: 70px;
+  height: 70px;
+}
+
+.rwc-embed__chat-wrapper {
+  right: calc(50% - 203px) !important;
+  bottom: calc(50% - 300px) !important;
+  width: calc(407px + 0.5rem);
+  height: 600px;
+} 
+
+.footer{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  height: 20%;
+}
+
+
+.nav-link{
+  color: white;
+    
+}
+
+.icon {
+  border-radius: 50%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center  ;
+
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+}
