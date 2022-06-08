@@ -46,7 +46,7 @@ body {
 
 .rwc-embed__chat-wrapper {
   right: calc(50% - 203px) !important;
-  bottom: calc(50% - 300px) !important;
+  bottom: calc(55% - 300px) !important;
   width: calc(407px + 0.5rem);
   height: 600px;
 } 
